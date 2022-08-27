@@ -20,6 +20,6 @@ Accelerometer](https://www.nxp.com/docs/en/application-note/AN3461.pdf).
 
 ## How to run it
 
-To run this file, you'll need to have an input file containing the accelerometer data in the previously mentioned format. Depending on the file name, you may have to adjust the inputFile variable name.
+To run this file, you'll need to have an input file containing the accelerometer data in the previously mentioned format. **Beware:** depending on the name of the input file, you may have to adjust the inputFile variable name, or else an IO exception may be thrown.
 
 You also need a C++ compiler in order to compile the .cpp file and run it. If you don't have one, you can follow [this guide](https://code.visualstudio.com/docs/languages/cpp) as I did.
